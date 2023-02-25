@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Budget</title>
+
+        <!-- IconScout -->
+        <link
+            rel="stylesheet"
+            href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"
+        />
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ultra&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bellota&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Suwannaphum&display=swap"
+            rel="stylesheet"
+        />
+
+        <script src="jquery.js"></script>
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <!-- Tab icon -->
+        <link rel="icon" href="images/budget.svg" />
+
+        <!-- Default Style -->
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body class="theme-light">
+        <!-- Loading Page -->
+        
+
+        <!-- Navbar -->
+        <nav class="margin_nav">
+            <div class="container nav__container">
+                <a href="index.html" class="nav__logo">
+                    <h3>LOGO</h3>
+                </a>
+                <ul class="nav__menu">
+                    <li><a href="index.html" class="active">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Recursos</a></li>
+                    <li><a href="#quemsomos">Quem Somos</a></li>
+                    <li>
+                        <i id="icon" class="uil uil-moon" value="light"></i>
+                    </li>
+                    <div class="cursor"></div>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="loader-wrapper">
+            <span class="loader"><span class="loader-inner"></span></span>
+        </div>
+
+        <!-- Header -->
+        <header>
+            <div class="container header__container">
+                <div class="header_left">
+                    <p>
+                        <span class="budgetText">Budget</span> é o melhor
+                        gerenciador de finanças que uma pessoa pode ter
+                    </p>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <div
+                class="object"
+                data-tilt
+                data-tilt-full-page-listening
+                data-tilt-scale="1.1"
+            >
+                <img src="images/header.svg" alt="" />
+            </div>
+            <div>
+                <img src="images/Vector 1.svg" alt="" class="vector1" />
+            </div>
+            <div>
+                <img src="images/Vector 2.svg" alt="" class="vector2" />
+            </div>
+        </div>
+        <!-- Script -->
+        <script src="script.js"></script>
+        <script src="vanilla-tilt.min.js"></script>
+    </body>
+</html>
